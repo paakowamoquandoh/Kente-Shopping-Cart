@@ -16,6 +16,7 @@ header{
     height: auto;
     border: 1px solid #000;
     margin: auto;
+    background: #fff;
 }
 
 header nav{
@@ -34,4 +35,97 @@ header nav{
 header nav ul{
     display: flex;
     align-items: center;
+}
+
+header nav ul li{
+  padding: 3px 0px 3px 30px;
+  list-style: none;
+}
+
+header nav ul li a{
+    text-decoration: none;    
+    font-size: 13px;
+    font-weight: 600;
+    color: rgb(0, 0, 0, 0.7);
+    transition: 0.3s linear;
+}
+
+header nav ul li a:hover{
+    color: rgb(0, 0, 0);
+}
+
+header nav ul li a ion-icon{
+    margin-right: 3px;
+    font-size: 22px;
+    margin-bottom: -5px;
+}
+
+header .brandNav{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    padding: 0px 30px ;
+}
+
+header .brandNav ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    transition: 0.3s linear;
+}
+
+header .brandNav ul li{
+    position: relative;    
+    transition: 0.3s linear;
+}
+
+header .brandNav ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: rgb(193, 193, 193, 0.5);   
+    transition: 0.3s linear;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .brandNav ul li a:hover{
+    color: rgb(193, 193, 193);
+}
+
+header .brandNav ul li ion-icon{
+    font-size: 22px;
+    margin-bottom: -5px;
+    margin-left: 6px;
+    transition: 0.3s linear;
+}
+
+header .brandNav ul li:nth-last-child(1) ion-icon{
+    color: orangered;
+}
+
+header .brandNav ul li img{
+    width: 60px;
+}
+
+header .brandNav ul li:nth-child(2){
+    background: orangered;
+    width: 130px;
+}
+
+header .brandNav ul li:nth-child(4){
+    width: 130px;
+}
+
+
+header .brandNav ul li:nth-child(2):hover{
+    background: orangered;
+}
+
+header .brandNav ul li:nth-child(4):hover{
+    background: orangered;
 }
