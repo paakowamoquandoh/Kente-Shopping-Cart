@@ -81,6 +81,10 @@ header .brandNav ul{
 header .brandNav ul li{
     position: relative;    
     transition: 0.3s linear;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 header .brandNav ul li a{
@@ -91,6 +95,7 @@ header .brandNav ul li a{
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 100%;
 }
 
 header .brandNav ul li a:hover{
