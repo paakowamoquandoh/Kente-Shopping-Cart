@@ -253,7 +253,61 @@ section .productsBox section .sortTitle button{
   font-weight: 600;
 }
 
-section .productsBox section .sortTitle button ion-icon{
+section .productsBox section .sortTitle .sortSelect button ion-icon{
    font-size: 15px;
    color: grey;
+}
+
+section .productsBox section .sortTitle .sortSelect .sortOptions{
+    position: absolute;
+    width: 150px;
+    height: 0px;
+    opacity: 0;
+    padding: 5px 10px 10px 10px;
+    background: #fff;
+    border-radius: 5px;
+    text-align: center;
+    overflow: hidden;
+    transition: 0.3s linear;
+}
+
+section .productsBox section .sortTitle .sortSelect .sortOptions li{
+    list-style: none;
+    padding: 5px 0px;
+    background: rgb(0, 0, 0, 0.1);
+    margin-top: 5px;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s linear;
+}
+
+section .productsBox section .sortTitle .sortSelect .sortOptions li:hover{
+    background: #000;
+    color: #fff;
+}
+
+section .productsBox section .sortTitle .sortSelect .sortOptions_active{
+    height: 150px;
+    opacity: 1;
+    z-index: 99999999999999;
+}
+
+section .productsBox .mainProArea{
+   width: 100%;
+   height: auto;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   flex-wrap: wrap;
+}
+
+section .productsBox .mainProArea .itemCard{
+    position: relative;
+    width: 150px;
+    height: 240px;
+    border: 1px solid black;
+    margin: 5px 5px 25px 0;
+    text-decoration: none;
 }
