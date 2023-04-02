@@ -134,3 +134,9 @@ header .brandNav ul li:nth-child(2):hover{
 header .brandNav ul li:nth-child(4):hover{
     background: orangered;
 }
+
+header .brandNav ul li:nth-child(1) .selectBox{
+    position: absolute;
+    top: 100%;
+    width: 90px;
+}
