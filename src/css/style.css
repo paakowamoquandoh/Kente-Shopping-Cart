@@ -103,8 +103,8 @@ header .brandNav ul li a:hover{
 }
 
 header .brandNav ul li ion-icon{
-    font-size: 22px;
-    margin-bottom: -5px;
+    font-size: 32px;
+    margin-bottom: 0px;
     margin-left: 6px;
     transition: 0.3s linear;
 }
