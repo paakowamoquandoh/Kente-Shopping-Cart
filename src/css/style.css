@@ -14,7 +14,7 @@ body{
 header{
     width: 70%;
     height: auto;
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
     margin: auto;
     background: #fff;
 }
@@ -139,4 +139,22 @@ header .brandNav ul li:nth-child(1) .selectBox{
     position: absolute;
     top: 100%;
     width: 90px;
+    height: 0px;
+    opacity: 0;
+    background: orangered;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 99999999;
+    box-shadow: 0px 0px 20px rgb(0, 0, 0, 0.5);
+    overflow: hidden;
+    transition: 1s linear;
+}
+
+header .brandNav ul li:nth-child(1) .selectBox h5{
+    padding: 5px 0px;
+}
+
+header .brandNav ul li:nth-child(1) .selectBox_active{
+    height: 100px;
+    opacity: 1;
 }
