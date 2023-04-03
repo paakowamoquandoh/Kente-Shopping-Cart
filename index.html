@@ -16,7 +16,7 @@
             <ul>
                 <li><a href="">HOME</a></li>
                 <li><a href=""><ion-icon name="mail-outline"></ion-icon> EMAIL SUBSCRIPTION</a></li>
-                <li><a href=""><ion-icon name="cart-outline"></ion-icon> CART</a></li>
+                <li><a onclick="displayCartOverlay()"><ion-icon name="cart-outline"></ion-icon> CART</a></li>
             </ul>
         </nav>
         <div class="brandNav">
@@ -70,8 +70,8 @@
                     </div>
                 </div>
             </section>
-            <div class="mainProArea">
-                <a href="" class="itemCard">
+            <div class="mainProArea" id="mainProArea">
+                <!-- <a href="" class="itemCard">
                     <img src="./src/media/clothes/c1.jpg" alt="">
                     <h5 class="cardTitle" title="African Print Dress">African Print Dress</h5>
                     <p>Women Clothing</p>
@@ -80,8 +80,14 @@
                         <h5><del>$28.33</del></h5>
                     </div>
                     <div class="colorTag">
-                        <h6>Color 1</h6>
-                        <h6>Native clothing</h6>
+                        <div class="stars">
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                          </div>
+                        <button>Buy</button>
                     </div>
                 </a>
                 <a href="" class="itemCard"></a>
@@ -90,17 +96,48 @@
                 <a href="" class="itemCard"></a>
                 <a href="" class="itemCard"></a>
                 <a href="" class="itemCard"></a>
-                <a href="" class="itemCard"></a>
+                <a href="" class="itemCard"></a> -->
             </div>
+            <div class="pagination">
+                <a><ion-icon name="chevron-back-outline"></ion-icon></a>
+                <h6>Next Product</h6>
+                <a><ion-icon name="chevron-forward-outline"></ion-icon></a>
+              </div>
         </div>
     </section>
-    
+
+    <section id="cartOverlay">
+        <div class="cartOverlay">
+          <div class="cart">
+            <div class="miniCart">
+              <h2>Your Cart</h2>
+              <span class="closeCart">
+                <ion-icon size="large" name="close-circle-outline"></ion-icon>
+              </span>
+            </div>
+            <div class="overlayCartContent">
+              <!-- <div class="cartItem">
+              
+            </div> -->
+            </div>
+            <div class="cartFooter">
+              <h3>Total : Ghc <span class="ItemsTotal">0</span></h3>
+              <button class="cartFooterButton">Clear Cart</button>
+              <button class="checkoutButton">
+                <a href="./checkout.html">Checkout</a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+     
 
 
 
 
 
     <script src="./src/js/app.js"></script>
+    <script src="./src/js/products.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
