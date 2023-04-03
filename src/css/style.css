@@ -305,12 +305,13 @@ section .productsBox .mainProArea{
 
 section .productsBox .mainProArea .itemCard{
     position: relative;
-    width: 150px;
-    height: 240px;
+    width: 170px;
+    height: 250px;
     /* border: 1px solid black; */
     margin: 5px 5px 25px 0;
     text-decoration: none;
     transition: 0.3s linear;
+    padding: 5px 10px;
 }
 
 section .productsBox .mainProArea .itemCard:hover{
@@ -320,4 +321,55 @@ section .productsBox .mainProArea .itemCard:hover{
 section .productsBox .mainProArea .itemCard img{
     width: 100%;
     height: 150px;
+    object-fit: cover;
+}
+
+section .productsBox .mainProArea .itemCard .cardTitle{
+    font-size: 10px;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #000;
+}
+
+section .productsBox .mainProArea .itemCard p{
+    font-size: 11px;
+    font-weight: 500;
+    color: gray;
+}
+
+section .productsBox .mainProArea .itemCard .itemPrice{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 500;
+}
+
+section .productsBox .mainProArea .itemCard .itemPrice h5{
+    color: #000;
+    font-size: 11px;
+}
+
+section .productsBox .mainProArea .itemCard .itemPrice h5:nth-child(2){
+    color: gray;
+    font-size: 10px;
+}
+
+section .productsBox .mainProArea .itemCard .colorTag{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 8px;
+    border-top: 1px solid rgb(0, 0, 0, 0.1);
+}
+
+section .productsBox .mainProArea .itemCard .colorTag h6{
+    font-size: 8.5px;
+    margin-top: 3px;
+    color: gray;
+}
+
+section .productsBox .mainProArea .itemCard .colorTag h6:nth-child(2){
+    color: crimson;
 }
