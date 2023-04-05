@@ -208,11 +208,11 @@ section .productsBox nav{
     border-bottom: 1px solid rgb(0, 0, 0, 0.1);
 }
 
-section .productsBox nav h6 ion-icon{
-    margin: 0px 3px;
+section .productsBox nav h5 ion-icon{
+    margin:  0 3px -3px 3px;
 }
 
-section .productsBox nav h6 span{
+section .productsBox nav h5 span{
     color: grey;
 }
 
@@ -389,6 +389,126 @@ section .productsBox .mainProArea .itemCard .colorTag button:hover{
     background: rgb(202, 202, 202);
     border: 1px solid orangered;
 }
+
+section .productsBox .pagination{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 20px 0px 30px 0px;
+}
+
+section .productsBox .pagination a{
+  width: 20%;
+  padding: 8px 0px;
+  text-decoration: none;
+  border: 1px solid rgb(0, 0, 0, 0.1);
+  font-size: 12px;
+  text-align: center;
+  transition: 0.3s linear;
+}
+
+section .productsBox .pagination a:hover{
+  color: #fff;
+  background: orangered;
+}
+
+section .productsBox .pagination h6{
+  width: 40%;
+  text-align: center;
+  border-top: 1px solid rgb(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgb(0, 0, 0, 0.1);
+  padding: 8px 0px;
+  color: orangered;
+}
+
+section .productsBox .pagination ion-icon{
+  font-size: 16px;
+  color: #000;
+  margin-bottom: -3px;
+}
+
+section .productsBox .pagination ion-icon:hover{
+  font-size: 16px;
+  color: #ffffff;
+}
+
+section aside{
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 40px;
+}
+
+section aside .filterArea {
+  width: 190px;
+  height: auto;
+  background: rgb(0, 0, 0, 0.1);
+  padding: 10px;
+}
+
+section aside .filterArea .filter{
+  font-size: 12.8px;
+}
+
+section aside .filterArea .productItems {
+  font-size: 12px;
+  margin-top: 3px;
+}
+
+section aside .itemsCheck{
+  width: 100%;
+  height: auto;
+  border-top: 1px solid rgb(0, 0, 0, 0.1);
+  margin-top: 10px;
+}
+
+section aside .filterArea .clothesChecked{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3px 8px;
+  margin: 10px 0px;
+  background: #000;
+  color: #fff;
+}
+
+section aside .filterArea .itemsCheck_off{
+  background: none;
+  color: #000;
+}
+
+section aside .filterArea .itemsCheck li{
+  width: 90%;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+section aside .filterArea .itemsCheck li i{
+  font-size: 14px;
+  transition: 0.3s linear;
+  cursor: pointer;
+}
+
+section aside .filterArea .itemsCheck li i:hover{
+  color: orangered;
+}
+
+section aside .filterArea .itemsCheck li .i_active{
+  color: orangered;
+}
+
+
+
+
+
+
+
 
 
 /* cart overlay styling */
