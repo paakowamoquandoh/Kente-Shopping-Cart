@@ -537,6 +537,17 @@ section aside .filterArea .itemsCheck .priceInput .priceInput1 input{
   width: 100%;
 }
 
+section aside .filterArea .itemsCheck .priceInput .priceInput1 i{
+ position: absolute;
+ top: 0px;
+ left: 0%;
+ transition: 1s linear;
+}
+
+section aside .filterArea .itemsCheck .priceInput .priceInput1:nth-child(2) i{
+  left: 100%;
+}
+
 
 
 
