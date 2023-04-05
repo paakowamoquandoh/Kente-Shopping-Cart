@@ -548,6 +548,15 @@ section aside .filterArea .itemsCheck .priceInput .priceInput1:nth-child(2) i{
   left: 100%;
 }
 
+section aside .filterArea .itemsCheck .priceInput .prices{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
+
+
 
 
 
