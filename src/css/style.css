@@ -501,7 +501,66 @@ section aside .filterArea .itemsCheck li i:hover{
 
 section aside .filterArea .itemsCheck li .i_active{
   color: orangered;
+} 
+
+section aside .filterArea .itemsCheck .priceInput{
+  position: relative;
+  display: flex;
+  align-items: center;
 }
+
+section aside .filterArea .itemsCheck .priceInput{
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+section aside .filterArea .itemsCheck .priceInput::before{
+ content: "";
+ position: absolute;
+ width: 88%;
+ height: 3px;
+ background: rgb(0, 0, 0, 0.3);
+ top: 11px;
+ left: 0;
+}
+
+section aside .filterArea .itemsCheck .priceInput .priceInput1{
+ position: relative;
+ width: 50%;
+}
+
+section aside .filterArea .itemsCheck .priceInput .priceInput1 input{
+  z-index: 99999999999999999;
+  opacity: 0;
+  cursor: pointer;
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
