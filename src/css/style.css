@@ -441,7 +441,7 @@ section aside{
 
 section aside .filterArea {
   width: 190px;
-  height: auto;
+  height: 100vh;
   background: rgb(0, 0, 0, 0.1);
   padding: 10px;
 }
@@ -548,12 +548,20 @@ section aside .filterArea .itemsCheck .priceInput .priceInput1:nth-child(2) i{
   left: 100%;
 }
 
-section aside .filterArea .itemsCheck .priceInput .prices{
+section aside .filterArea .itemsCheck .prices{
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-top: 5px;
 }
+
+section aside .filterArea .itemsCheck .prices h6{
+  border: 1px solid rgb(0, 0, 0, 0.3);
+  padding: 3px 12px;
+  color: rgb(0, 0, 0, 0.8);
+}
+
+section aside .filterArea .itemsCheck .sizesBox
 
 
 
