@@ -42,6 +42,10 @@ header nav ul li{
   list-style: none;
 }
 
+header nav ul .carty{
+  padding: 3px 0px 3px 30px;
+}
+
 header nav ul li a{
     text-decoration: none;    
     font-size: 13px;
@@ -54,10 +58,10 @@ header nav ul li a:hover{
     color: rgb(0, 0, 0);
 }
 
-header nav ul li a ion-icon{
+header nav ul li a i{
     margin-right: 3px;
-    font-size: 22px;
-    margin-bottom: -5px;
+    font-size: 18px;
+    margin-top: 5px;
 }
 
 header .brandNav{
@@ -79,6 +83,8 @@ header .brandNav ul{
     padding: 0px 30px ;
 }
 
+
+
 header .brandNav ul li{
     position: relative;    
     transition: 0.3s linear;
@@ -86,6 +92,17 @@ header .brandNav ul li{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+header 
+
+.cartAmount{
+  font-size: 16px;
+  background-color: orangered;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 header .brandNav ul li a{
@@ -561,7 +578,17 @@ section aside .filterArea .itemsCheck .prices h6{
   color: rgb(0, 0, 0, 0.8);
 }
 
-section aside .filterArea .itemsCheck .sizesBox
+section aside .filterArea .itemsCheck .sizesBox{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+section aside .filterArea .itemsCheck .sizesBox h6{
+  border: 4px solid #fff;
+  padding: 7px;
+  margin: 3px;
+}
 
 
 
