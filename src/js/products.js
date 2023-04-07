@@ -6,7 +6,7 @@ const ClearCartBtn = document.querySelector(".cartFooterButton");
 const cartArea =  document.querySelector(".cart");
 const cartOverlay = document.querySelector(".cartOverlay");
 const cartItemsQuantity = document.getElementById("itemsUpdate");
-const mobileItemsQuantity = document.getElementById("mobileItemsUpdate");
+// const mobileItemsQuantity = document.getElementById("mobileItemsUpdate");
 const cartTotal = document.querySelector(".ItemsTotal");
 const overlayCartContent = document.querySelector(".overlayCartContent");
 
@@ -118,7 +118,7 @@ class UI {
     })
     cartTotal.innerText = parseFloat(itemTotal.toFixed(2));
     cartItemsQuantity.innerText = itemsTotal; 
-    mobileItemsQuantity.innerText = itemsTotal;  
+    // mobileItemsQuantity.innerText = itemsTotal;  
   }
   addCartItemToCart(item){
      const itemDiv = document.createElement("div");
@@ -127,7 +127,7 @@ class UI {
      <img src=${item.image} alt="">          
      <div>
       <h4>${item.title}</h4>
-      <h5>Ghc ${item.price}</h5>
+      <h5>$${item.price}</h5>
         <ion-icon class="removeItem" data-id = ${item.id} name="trash-outline"></ion-icon>
         <div class="stars">
               <ion-icon name="star"></ion-icon>
@@ -150,12 +150,12 @@ class UI {
      cartOverlay.classList.add("transparentBack");
      cartArea.classList.add("showCart");
   }
-  // setApplication(){
-  //     cartBasket = Storage.getItemsFromCart(); 
-  //     this.setCartItemValues(cartBasket);
-  //     this.populateCart(cartBasket);
-  //     closeCartBtn.addEventListener("click", this.hideCart)
-  // }
+  setApplication(){
+      cartBasket = Storage.getItemsFromCart(); 
+      this.setCartItemValues(cartBasket);
+      this.populateCart(cartBasket);
+      closeCartBtn.addEventListener("click", this.hideCart)
+  }
   populateCart(cartBasket){
     cartBasket.forEach(item => this.addCartItemToCart(item));
 
@@ -215,7 +215,7 @@ class UI {
     Storage.saveCart(cartBasket)
     let button = this.getOneButton(id);
     button.disabled = false;
-    button.innerHTML = `Add to Cart`;
+    button.innerHTML = `Buy`;
   }
   getOneButton(id){
     return addButtons.find(button => button.dataset.id === id);
@@ -249,7 +249,7 @@ document.addEventListener("DOMContentLoaded", ()=>{
   const ui = new UI();
   const products = new Products();
   // application setup
-  // ui.setApplication();
+  ui.setApplication();
   //get product items
   products.getProducts().then(products => {
     ui.loadAllproducts(products);

@@ -98,13 +98,24 @@ header nav ul li{
   list-style: none;
 }
 
-header nav ul .carty{
-  padding: 3px 0px 3px 30px;
+header .carty{
+  position: relative;
+  padding: 3px 0px 2px 20px;
+}
+header .cartAmount{
+  font-size: 13px;
+  background-color: var(--main-color);
+  color: #fff;
+  position: absolute;
+  top: -9px;
+  right: -14px;
+  padding: 1px 6px;
+  border-radius: 5px;
 }
 
 header nav ul li a{
     text-decoration: none;    
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 600;
     color: rgb(0, 0, 0, 0.7);
     transition: 0.3s linear;
@@ -116,8 +127,8 @@ header nav ul li a:hover{
 
 header nav ul li a i{
     margin-right: 3px;
-    font-size: 18px;
-    margin-top: 5px;
+    font-size: 18px; 
+    color: black;  
 }
 
 header .brandNav{
@@ -149,19 +160,7 @@ header .brandNav ul li{
     align-items: center;
     justify-content: center;
 }
-header .carty{
-  position: relative;
-}
-header .cartAmount{
-  font-size: 13px;
-  background-color: var(--main-color);
-  color: #fff;
-  position: absolute;
-  top: -9px;
-  right: -14px;
-  padding: 1px 6px;
-  border-radius: 5px;
-}
+
 
 header .brandNav ul li a{
     text-decoration: none;
@@ -172,10 +171,6 @@ header .brandNav ul li a{
     align-items: center;
     justify-content: center;
     height: 100%;
-}
-
-header .brandNav ul li a i{
-  color: green;
 }
 
 header .brandNav ul li a:hover{
