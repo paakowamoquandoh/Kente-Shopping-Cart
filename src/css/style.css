@@ -60,7 +60,7 @@ header{
     height: auto;
     /* border: 1px solid #000; */
     margin: auto;
-    background: #fff;
+    background: var(--secondary-color);
 }
 
 header nav{
@@ -85,7 +85,7 @@ header nav .logoBox{
 }
 
 header nav .logoBox h3{
-  color: var(--secondary-color);
+  color: var(--main-color);
 }
 
 header nav ul{
