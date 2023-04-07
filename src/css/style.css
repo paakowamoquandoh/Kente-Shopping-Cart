@@ -149,16 +149,18 @@ header .brandNav ul li{
     align-items: center;
     justify-content: center;
 }
-
-header 
-
-.cartAmount{
-  font-size: 16px;
+header .carty{
+  position: relative;
+}
+header .cartAmount{
+  font-size: 13px;
   background-color: var(--main-color);
   color: #fff;
   position: absolute;
-  top: 0;
-  right: 0;
+  top: -9px;
+  right: -14px;
+  padding: 1px 6px;
+  border-radius: 5px;
 }
 
 header .brandNav ul li a{
@@ -170,6 +172,10 @@ header .brandNav ul li a{
     align-items: center;
     justify-content: center;
     height: 100%;
+}
+
+header .brandNav ul li a i{
+  color: green;
 }
 
 header .brandNav ul li a:hover{

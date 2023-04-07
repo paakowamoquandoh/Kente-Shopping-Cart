@@ -55,7 +55,6 @@ class UI {
       <p>${product.description}</p>
       <div class="itemPrice">
           <h5>$${product.price}</h5>
-         
       </div>
       <div class="colorTag">
       <div class="stars">
