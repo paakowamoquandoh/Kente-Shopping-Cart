@@ -65,7 +65,7 @@ header{
 
 header nav{
     width: 100%;
-    height: auto;
+    height: 65px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -73,7 +73,7 @@ header nav{
 }
 
 header nav img{
-  height: 90px;
+  height: 80px;
   margin-right: -15px;
 }
 
@@ -713,11 +713,10 @@ section aside .filterArea .itemsCheck .sizesBox h6:hover{
     width: 100%;
     height: 100%;
     overflow: scroll;
-    background: white;
+    background: var(--main-color);
     z-index: 3;
-    background: rgba(147, 147, 147, 0.959);
+    /* background: var(--alternate); */
     padding: 1.5rem;
-    margin-top: 2rem;
     transition: 0.5s ease-in-out;
     transform: translateX(100%);
   }
@@ -726,27 +725,22 @@ section aside .filterArea .itemsCheck .sizesBox h6:hover{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 50px;
-    margin-bottom: -40px;
-    margin-left: 12px;
+    font-size: larger;
+  }
+
+  .miniCart ion-icon{
+    color: var(--secondary-color);
+    
   }
   
   .cartItem .stars ion-icon {
     color: gold;
     font-size: 14px;
+    display: none;
   }
   
   .miniCart h2 {
-    color: rgb(172, 98, 0);
-  }
-  
-  .closeCart {
-    margin-top: 12px;
-    margin-right: 25px;
-  }
-  
-  .closeCart span ion-icon {
-    color: #000;
+    color: var(--secondary-color);
   }
   
   .overlayCartContent ion-icon {
@@ -754,10 +748,10 @@ section aside .filterArea .itemsCheck .sizesBox h6:hover{
   }
   
   .cartItem {
-    box-shadow: 0px 2.6px 10px rgba(0, 0, 0, 0.035),
-      0px 21px 80px rgba(0, 0, 0, 0.07);
+    box-shadow: 0px 2.6px 10px rgba(0, 0, 0, 0.322),
+      0px 21px 80px rgba(0, 0, 0, 0.247);
     border-radius: 3px;
-    background-color: rgba(0, 128, 128, 0.753);
+    background-color: var(--alternate);
     display: grid;
     align-items: center;
     grid-template-columns: auto 1fr auto;
@@ -775,6 +769,10 @@ section aside .filterArea .itemsCheck .sizesBox h6:hover{
     margin: 0.5rem 0;
     letter-spacing: 1px;
   }
+
+  .cartItem h4 {
+    color: var(--dark-color);
+  }
   
   .showCart {
     transform: translateX(0);
@@ -787,11 +785,11 @@ section aside .filterArea .itemsCheck .sizesBox h6:hover{
   .itemAmount {
     text-align: center;
     margin: -5px 0;
-    color: #000;
+    color: var(--main-color);
   }
   
   .removeItem {
-    color: #f60a0a;
+    color: tomato;
     cursor: pointer;
     background: transparent;
     border: none;
@@ -800,7 +798,7 @@ section aside .filterArea .itemsCheck .sizesBox h6:hover{
   
   .upBtn,
   .downBtn {
-    color: rgb(163, 97, 11);
+    color: var(--dark-color);
     cursor: pointer;
   }
   
@@ -815,8 +813,8 @@ section aside .filterArea .itemsCheck .sizesBox h6:hover{
     font-size: 1.2rem;
     font-weight: bold;
     padding: 8px 30px;
-    color: rgb(235, 229, 229);
-    background-color: rgb(163, 97, 11);
+    color: var(--secondary-color);
+    background-color: var(--dark-color);
     border-radius: 4px;
     cursor: pointer;
     border: none;
@@ -826,15 +824,13 @@ section aside .filterArea .itemsCheck .sizesBox h6:hover{
   
   .cartFooterButton:hover {
     background-color: rgb(235, 229, 229);
-    color: rgb(163, 97, 11);
+    color: var(--secondary-color);
   }
   
   .checkoutButton {
     font-size: 1.2rem;
-    font-weight: bold;
     padding: 8px 30px;
-    color: rgb(235, 229, 229);
-    background-color: teal;
+    background-color: var(--alternate);
     border-radius: 4px;
     cursor: pointer;
     border: none;
@@ -844,8 +840,9 @@ section aside .filterArea .itemsCheck .sizesBox h6:hover{
   
   .checkoutButton a {
     text-decoration: none;
-    color: rgb(235, 229, 229);
-    background-color: teal;
+    color: var(--main-color);
+    background-color: var(--alternate);
+    font-weight: bold;
   }
   
   /* .checkoutButton:hover{
@@ -856,15 +853,16 @@ section aside .filterArea .itemsCheck .sizesBox h6:hover{
   .cartFooter h3 {
     text-transform: capitalize;
     margin-bottom: 1rem;
-    border-top: #000 1px solid;
+    border-top: var(--secondary-color) 1px solid;
     padding-top: 4px;
     text-align: end;
+    color: var(--secondary-color);
   }
 
   @media screen and (min-width: 768px) {
     .cart {
-      width: 30vw;
-      min-width: 450px;
+      width: 25vw;
+      min-width: 350px;
     }
   
     .closeCart {
