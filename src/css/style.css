@@ -52,11 +52,11 @@
 
 body{
     font-family: 'Poppins', sans-serif;
-    background: var(--primary-background-color);
+    background: rgba(0, 0, 0, 0.123);
 }
 
 header{
-    width: 90%;
+    width: 100%;
     height: auto;
     /* border: 1px solid #000; */
     margin: auto;
@@ -257,7 +257,7 @@ header .brandNav .listBox li:hover{
 
 /*  */
 section{
-    width: 90%;
+    width: 100%;
     height: auto;
     display: flex;
     margin: 36px auto 0px auto;
@@ -382,10 +382,10 @@ section .productsBox .mainProArea{
 
 section .productsBox .mainProArea .itemCard{
     position: relative;
-    width: 170px;
+    width: 200px;
     height: 250px;
     /* border: 1px solid black; */
-    margin: 5px 5px 25px 0;
+    margin: 5px 10px 25px 2px;
     text-decoration: none;
     transition: 0.3s linear;
     padding: 5px 10px;
