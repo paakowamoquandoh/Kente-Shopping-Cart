@@ -102,6 +102,9 @@ header .carty{
   position: relative;
   padding: 3px 0px 2px 20px;
 }
+header .carty .bi{
+  font-size: 18px;
+}
 header .cartAmount{
   font-size: 13px;
   background-color: var(--main-color);
@@ -516,8 +519,9 @@ section aside{
 section aside .filterArea {
   width: 250px;
   height: 100vh;
-  background: rgb(0, 0, 0, 0.1);
+  background: v(0, 0, 0, 0.1);
   padding: 10px;
+  margin-right: 10px;
 }
 
 section aside .filterArea .filter{

@@ -15,7 +15,7 @@
     {
       "sys": { "id": "accessories" },
       "fields": {
-        "category": "women",
+        "category": "men",
         "title": "Ankara Accessories",
         "description": "African Bag with Accessories",
         "price": 34.33,
@@ -27,7 +27,7 @@
     {
       "sys": { "id": "sportwear" },
       "fields": {
-        "category": "women",
+        "category": "children",
         "title": "Ankara Active Wear",
         "description": "African Print Active Sportwear",
         "price": 72.09,
@@ -63,7 +63,7 @@
     {
       "sys": { "id": "accessories" },
       "fields": {
-        "category": "men",
+        "category": "women",
         "title": "Ankara Accessories",
         "description": "African Bag with Accessories",
         "price": 34.33,
@@ -75,7 +75,7 @@
     {
       "sys": { "id": "sportwear" },
       "fields": {
-        "category": "men",
+        "category": "children",
         "title": "Ankara Active Wear",
         "description": "African Print Active Sportwear",
         "price": 72.09,
@@ -99,7 +99,7 @@
     {
       "sys": { "id": "clothes" },
       "fields": {
-        "category": "kids",
+        "category": "children",
         "title": "African Print Dress",
         "description": "Women Clothing",
         "price": 181.25,
@@ -111,7 +111,7 @@
     {
       "sys": { "id": "accessories" },
       "fields": {
-        "category": "kids",
+        "category": "women",
         "title": "Ankara Accessories",
         "description": "African Bag with Accessories",
         "price": 34.33,
@@ -123,7 +123,7 @@
     {
       "sys": { "id": "sportwear" },
       "fields": {
-        "category": "kids",
+        "category": "men",
         "title": "Ankara Active Wear",
         "description": "African Print Active Sportwear",
         "price": 72.09,
@@ -135,7 +135,7 @@
     {
       "sys": { "id": "lingerie" },
       "fields": {
-        "category": "kids",
+        "category": "children",
         "title": "African sexy outfit",
         "description": "3pieces bi-materail Mesh",
         "price": 65.44,
@@ -147,7 +147,7 @@
     {
       "sys": { "id": "clothes" },
       "fields": {
-        "category": "women",
+        "category": "men",
         "title": "African Print Dress",
         "description": "Women Clothing",
         "price": 181.25,
@@ -171,7 +171,7 @@
     {
       "sys": { "id": "sportwear" },
       "fields": {
-        "category": "women",
+        "category": "children",
         "title": "Ankara Active Wear",
         "description": "African Print Active Sportwear",
         "price": 72.09,
@@ -183,7 +183,7 @@
     {
       "sys": { "id": "lingerie" },
       "fields": {
-        "category": "women",
+        "category": "men",
         "title": "African sexy outfit",
         "description": "3pieces bi-materail Mesh",
         "price": 65.44,
@@ -207,7 +207,7 @@
     {
       "sys": { "id": "accessories" },
       "fields": {
-        "category": "women",
+        "category": "men",
         "title": "Ankara Accessories",
         "description": "African Bag with Accessories",
         "price": 34.33,
@@ -219,7 +219,7 @@
     {
       "sys": { "id": "sportwear" },
       "fields": {
-        "category": "women",
+        "category": "children",
         "title": "Ankara Active Wear",
         "description": "African Print Active Sportwear",
         "price": 72.09,
