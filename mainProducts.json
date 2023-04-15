@@ -1,0 +1,429 @@
+[
+    {
+      "sys": { "id": "clothes" },
+      "fields": {
+        "category": "women",
+        "title": "African Print Dress",
+        "description": "Women Clothing",
+        "sizeXsmall": "x-small",
+        "sizeSmall": "small",
+        "sizeMedium": "medium",
+        "sizeLarge": "large",
+        "sizeXlarge": "x-large",
+        "sizeXxlarge": "xx-large",
+        "price": 181.25,
+        "image": {
+          "fields": { "file": { "url": "./src/media/clothes/c1.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "accessories" },
+      "fields": {
+        "category": "men",
+        "title": "Ankara Accessories",
+        "description": "African Bag with Accessories",
+        "price": 34.33,
+        "image": {
+          "fields": { "file": { "url": "./src/media/accessories/acc5.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "pillow" },
+      "fields": {
+        "category": "all",
+        "title": "African Pillow Cases",
+        "description": "Accessory",
+        "price": 18.25,
+        "image": {
+          "fields": { "file": { "url": "./src/media/pillow/p1.webp" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "sportwear" },
+      "fields": {
+        "category": "children",
+        "title": "Ankara Active Wear",
+        "description": "African Print Active Sportwear",
+        "sizeXsmall": "x-small",
+        "sizeSmall": "small",
+        "sizeMedium": "medium",
+        "sizeLarge": "large",
+        "sizeXlarge": "x-large",
+        "sizeXxlarge": "xx-large",
+        "price": 72.09,
+        "image": {
+          "fields": { "file": { "url": "./src/media/sportswear/sp1.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "lingerie" },
+      "fields": {
+        "category": "women",
+        "title": "African sexy outfit",
+        "description": "3pieces bi-materail Mesh",
+        "sizeXsmall": "x-small",
+        "sizeSmall": "small",
+        "sizeMedium": "medium",
+        "sizeLarge": "large",
+        "sizeXlarge": "x-large",
+        "sizeXxlarge": "xx-large",
+        "price": 65.44,
+        "image": {
+          "fields": { "file": { "url": "./src/media/lingerie/l13.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "pillow" },
+      "fields": {
+        "category": "all",
+        "title": "African Pillow Cases",
+        "description": "Accessory",
+        "price": 18.25,
+        "image": {
+          "fields": { "file": { "url": "./src/media/pillow/p2.webp" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "clothes" },
+      "fields": {
+        "category": "men",
+        "title": "African Print Dress",
+        "description": "Women Clothing",
+        "sizeXsmall": "x-small",
+        "sizeSmall": "small",
+        "sizeMedium": "medium",
+        "sizeLarge": "large",
+        "sizeXlarge": "x-large",
+        "sizeXxlarge": "xx-large",
+        "price": 181.25,
+        "image": {
+          "fields": { "file": { "url": "./src/media/clothes/c2.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "accessories" },
+      "fields": {
+        "category": "women",
+        "title": "Ankara Accessories",
+        "description": "African Bag with Accessories",
+        "price": 34.33,
+        "image": {
+          "fields": { "file": { "url": "./src/media/accessories/acc2.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "pillow" },
+      "fields": {
+        "category": "all",
+        "title": "African Pillow Cases",
+        "description": "Accessory",
+        "price": 18.25,
+        "image": {
+          "fields": { "file": { "url": "./src/media/pillow/p3.webp" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "sportwear" },
+      "fields": {
+        "category": "children",
+        "title": "Ankara Active Wear",
+        "description": "African Print Active Sportwear",
+        "sizeXsmall": "x-small",
+        "sizeSmall": "small",
+        "sizeMedium": "medium",
+        "sizeLarge": "large",
+        "sizeXlarge": "x-large",
+        "sizeXxlarge": "xx-large",
+        "price": 72.09,
+        "image": {
+          "fields": { "file": { "url": "./src/media/sportswear/sp2.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "lingerie" },
+      "fields": {
+        "category": "men",
+        "title": "African sexy outfit",
+        "description": "3pieces bi-materail Mesh",
+        "sizeXsmall": "x-small",
+        "sizeSmall": "small",
+        "sizeMedium": "medium",
+        "sizeLarge": "large",
+        "sizeXlarge": "x-large",
+        "sizeXxlarge": "xx-large",
+        "price": 65.44,
+        "image": {
+          "fields": { "file": { "url": "./src/media/lingerie/l6.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "pillow" },
+      "fields": {
+        "category": "all",
+        "title": "African Pillow Cases",
+        "description": "Accessory",
+        "price": 18.25,
+        "image": {
+          "fields": { "file": { "url": "./src/media/pillow/p4.webp" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "clothes" },
+      "fields": {
+        "category": "children",
+        "title": "African Print Dress",
+        "description": "Women Clothing",
+        "sizeXsmall": "x-small",
+        "sizeSmall": "small",
+        "sizeMedium": "medium",
+        "sizeLarge": "large",
+        "sizeXlarge": "x-large",
+        "sizeXxlarge": "xx-large",
+        "price": 181.25,
+        "image": {
+          "fields": { "file": { "url": "./src/media/clothes/c3.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "accessories" },
+      "fields": {
+        "category": "women",
+        "title": "Ankara Accessories",
+        "description": "African Bag with Accessories",
+        "price": 34.33,
+        "image": {
+          "fields": { "file": { "url": "./src/media/accessories/acc3.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "sportwear" },
+      "fields": {
+        "category": "men",
+        "title": "Ankara Active Wear",
+        "description": "African Print Active Sportwear",
+        "sizeXsmall": "x-small",
+        "sizeSmall": "small",
+        "sizeMedium": "medium",
+        "sizeLarge": "large",
+        "sizeXlarge": "x-large",
+        "sizeXxlarge": "xx-large",
+        "price": 72.09,
+        "image": {
+          "fields": { "file": { "url": "./src/media/sportswear/sp3.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "pillow" },
+      "fields": {
+        "category": "all",
+        "title": "African Pillow Cases",
+        "description": "Accessory",
+        "price": 18.25,
+        "image": {
+          "fields": { "file": { "url": "./src/media/pillow/p5.jpeg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "lingerie" },
+      "fields": {
+        "category": "children",
+        "title": "African sexy outfit",
+        "description": "3pieces bi-materail Mesh",
+        "sizeXsmall": "x-small",
+        "sizeSmall": "small",
+        "sizeMedium": "medium",
+        "sizeLarge": "large",
+        "sizeXlarge": "x-large",
+        "sizeXxlarge": "xx-large",
+        "price": 65.44,
+        "image": {
+          "fields": { "file": { "url": "./src/media/lingerie/l12.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "clothes" },
+      "fields": {
+        "category": "men",
+        "title": "African Print Dress",
+        "description": "Women Clothing",
+        "sizeXsmall": "x-small",
+        "sizeSmall": "small",
+        "sizeMedium": "medium",
+        "sizeLarge": "large",
+        "sizeXlarge": "x-large",
+        "sizeXxlarge": "xx-large",
+        "price": 181.25,
+        "image": {
+          "fields": { "file": { "url": "./src/media/clothes/cl9.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "pillow" },
+      "fields": {
+        "category": "all",
+        "title": "African Pillow Cases",
+        "description": "Accessory",
+        "price": 18.25,
+        "image": {
+          "fields": { "file": { "url": "./src/media/pillow/p6.jpeg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "accessories" },
+      "fields": {
+        "category": "women",
+        "title": "Ankara Accessories",
+        "description": "African Bag with Accessories",
+        "price": 34.33,
+        "image": {
+          "fields": { "file": { "url": "./src/media/accessories/acc7.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "sportwear" },
+      "fields": {
+        "category": "children",
+        "title": "Ankara Active Wear",
+        "description": "African Print Active Sportwear",
+        "sizeXsmall": "x-small",
+        "sizeSmall": "small",
+        "sizeMedium": "medium",
+        "sizeLarge": "large",
+        "sizeXlarge": "x-large",
+        "sizeXxlarge": "xx-large",
+        "price": 72.09,
+        "image": {
+          "fields": { "file": { "url": "./src/media/sportswear/sp5.png" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "pillow" },
+      "fields": {
+        "category": "all",
+        "title": "African Pillow Cases",
+        "description": "Accessory",
+        "price": 18.25,
+        "image": {
+          "fields": { "file": { "url": "./src/media/pillow/p7.jpeg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "lingerie" },
+      "fields": {
+        "category": "men",
+        "title": "African sexy outfit",
+        "description": "3pieces bi-materail Mesh",
+        "sizeXsmall": "x-small",
+        "sizeSmall": "small",
+        "sizeMedium": "medium",
+        "sizeLarge": "large",
+        "sizeXlarge": "x-large",
+        "sizeXxlarge": "xx-large",
+        "price": 65.44,
+        "image": {
+          "fields": { "file": { "url": "./src/media/lingerie/l15.png" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "clothes" },
+      "fields": {
+        "category": "women",
+        "title": "African Print Dress",
+        "description": "Women Clothing",
+        "sizeXsmall": "x-small",
+        "sizeSmall": "small",
+        "sizeMedium": "medium",
+        "sizeLarge": "large",
+        "sizeXlarge": "x-large",
+        "sizeXxlarge": "xx-large",
+        "price": 181.25,
+        "image": {
+          "fields": { "file": { "url": "./src/media/clothes/c4.png" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "accessories" },
+      "fields": {
+        "category": "men",
+        "title": "Ankara Accessories",
+        "description": "African Bag with Accessories",
+        "price": 34.33,
+        "image": {
+          "fields": { "file": { "url": "./src/media/accessories/1.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "pillow" },
+      "fields": {
+        "category": "all",
+        "title": "African Pillow Cases",
+        "description": "Accessory",
+        "price": 18.25,
+        "image": {
+          "fields": { "file": { "url": "./src/media/pillow/p8.jpeg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "sportwear" },
+      "fields": {
+        "category": "children",
+        "title": "Ankara Active Wear",
+        "description": "African Print Active Sportwear",
+        "sizeXsmall": "x-small",
+        "sizeSmall": "small",
+        "sizeMedium": "medium",
+        "sizeLarge": "large",
+        "sizeXlarge": "x-large",
+        "sizeXxlarge": "xx-large",
+        "price": 72.09,
+        "image": {
+          "fields": { "file": { "url": "./src/media/sportswear/sp6.jpeg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "lingerie" },
+      "fields": {
+        "category": "women",
+        "title": "African sexy outfit",
+        "description": "3pieces bi-materail Mesh",
+        "sizeXsmall": "x-small",
+        "sizeSmall": "small",
+        "sizeMedium": "medium",
+        "sizeLarge": "large",
+        "sizeXlarge": "x-large",
+        "sizeXxlarge": "xx-large",
+        "price": 65.44,
+        "image": {
+          "fields": { "file": { "url": "./src/media/lingerie/l7.jpeg" } }
+        }
+      }
+    }
+  ]
+
