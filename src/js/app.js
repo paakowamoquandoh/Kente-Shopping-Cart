@@ -172,7 +172,7 @@ fetch(url).then((Response => Response.json())).then((data) => {
         `;
         durationOptions.classList.toggle("sortOptions_active");
 
-        highestPriceProductsArray.sort((a, b) => b.fields.price - a.fields.price);
+        highestPriceArray.sort((a, b) => b.fields.price - a.fields.price);
         
         highestPriceArray.forEach((item, index) => {
             const {title, price, description, category} = item.fields;
