@@ -25,6 +25,18 @@
       }
     },
     {
+      "sys": { "id": "pillow" },
+      "fields": {
+        "category": "all",
+        "title": "African Pillow Cases",
+        "description": "Accessory",
+        "price": 18.25,
+        "image": {
+          "fields": { "file": { "url": "./src/media/pillow/p1.webp" } }
+        }
+      }
+    },
+    {
       "sys": { "id": "sportwear" },
       "fields": {
         "category": "children",
@@ -45,6 +57,18 @@
         "price": 65.44,
         "image": {
           "fields": { "file": { "url": "./src/media/lingerie/l13.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "pillow" },
+      "fields": {
+        "category": "all",
+        "title": "African Pillow Cases",
+        "description": "Accessory",
+        "price": 18.25,
+        "image": {
+          "fields": { "file": { "url": "./src/media/pillow/p2.webp" } }
         }
       }
     },
@@ -73,6 +97,18 @@
       }
     },
     {
+      "sys": { "id": "pillow" },
+      "fields": {
+        "category": "all",
+        "title": "African Pillow Cases",
+        "description": "Accessory",
+        "price": 18.25,
+        "image": {
+          "fields": { "file": { "url": "./src/media/pillow/p3.webp" } }
+        }
+      }
+    },
+    {
       "sys": { "id": "sportwear" },
       "fields": {
         "category": "children",
@@ -93,6 +129,18 @@
         "price": 65.44,
         "image": {
           "fields": { "file": { "url": "./src/media/lingerie/l6.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "pillow" },
+      "fields": {
+        "category": "all",
+        "title": "African Pillow Cases",
+        "description": "Accessory",
+        "price": 18.25,
+        "image": {
+          "fields": { "file": { "url": "./src/media/pillow/p4.webp" } }
         }
       }
     },
@@ -133,6 +181,18 @@
       }
     },
     {
+      "sys": { "id": "pillow" },
+      "fields": {
+        "category": "all",
+        "title": "African Pillow Cases",
+        "description": "Accessory",
+        "price": 18.25,
+        "image": {
+          "fields": { "file": { "url": "./src/media/pillow/p5.jpeg" } }
+        }
+      }
+    },
+    {
       "sys": { "id": "lingerie" },
       "fields": {
         "category": "children",
@@ -157,6 +217,18 @@
       }
     },
     {
+      "sys": { "id": "pillow" },
+      "fields": {
+        "category": "all",
+        "title": "African Pillow Cases",
+        "description": "Accessory",
+        "price": 18.25,
+        "image": {
+          "fields": { "file": { "url": "./src/media/pillow/p6.jpeg" } }
+        }
+      }
+    },
+    {
       "sys": { "id": "accessories" },
       "fields": {
         "category": "women",
@@ -177,6 +249,18 @@
         "price": 72.09,
         "image": {
           "fields": { "file": { "url": "./src/media/sportswear/sp5.png" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "pillow" },
+      "fields": {
+        "category": "all",
+        "title": "African Pillow Cases",
+        "description": "Accessory",
+        "price": 18.25,
+        "image": {
+          "fields": { "file": { "url": "./src/media/pillow/p7.jpeg" } }
         }
       }
     },
@@ -213,6 +297,18 @@
         "price": 34.33,
         "image": {
           "fields": { "file": { "url": "./src/media/accessories/1.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "pillow" },
+      "fields": {
+        "category": "all",
+        "title": "African Pillow Cases",
+        "description": "Accessory",
+        "price": 18.25,
+        "image": {
+          "fields": { "file": { "url": "./src/media/pillow/p8.jpeg" } }
         }
       }
     },
