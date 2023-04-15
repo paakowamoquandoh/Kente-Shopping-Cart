@@ -203,5 +203,11 @@ fetch(url).then((Response => Response.json())).then((data) => {
         });
         
     })
+
+    let clothingProducts = allProductsArray.filter((item)=>{
+        return item.sys.id === "clothes"
+    })
+
+    let AllFilteredProducts = [];
     
 })
