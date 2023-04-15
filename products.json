@@ -6,6 +6,12 @@
         "category": "women",
         "title": "African Print Dress",
         "description": "Women Clothing",
+        "sizeXsmall": "x-small",
+        "sizeSmall": "small",
+        "sizeMedium": "medium",
+        "sizeLarge": "large",
+        "sizeXlarge": "x-large",
+        "sizeXxlarge": "xx-large",
         "price": 181.25,
         "image": {
           "fields": { "file": { "url": "./src/media/clothes/c1.jpg" } }
@@ -42,6 +48,12 @@
         "category": "children",
         "title": "Ankara Active Wear",
         "description": "African Print Active Sportwear",
+        "sizeXsmall": "x-small",
+        "sizeSmall": "small",
+        "sizeMedium": "medium",
+        "sizeLarge": "large",
+        "sizeXlarge": "x-large",
+        "sizeXxlarge": "xx-large",
         "price": 72.09,
         "image": {
           "fields": { "file": { "url": "./src/media/sportswear/sp1.jpg" } }
@@ -54,6 +66,12 @@
         "category": "women",
         "title": "African sexy outfit",
         "description": "3pieces bi-materail Mesh",
+        "sizeXsmall": "x-small",
+        "sizeSmall": "small",
+        "sizeMedium": "medium",
+        "sizeLarge": "large",
+        "sizeXlarge": "x-large",
+        "sizeXxlarge": "xx-large",
         "price": 65.44,
         "image": {
           "fields": { "file": { "url": "./src/media/lingerie/l13.jpg" } }
@@ -78,6 +96,12 @@
         "category": "men",
         "title": "African Print Dress",
         "description": "Women Clothing",
+        "sizeXsmall": "x-small",
+        "sizeSmall": "small",
+        "sizeMedium": "medium",
+        "sizeLarge": "large",
+        "sizeXlarge": "x-large",
+        "sizeXxlarge": "xx-large",
         "price": 181.25,
         "image": {
           "fields": { "file": { "url": "./src/media/clothes/c2.jpg" } }
@@ -114,6 +138,12 @@
         "category": "children",
         "title": "Ankara Active Wear",
         "description": "African Print Active Sportwear",
+        "sizeXsmall": "x-small",
+        "sizeSmall": "small",
+        "sizeMedium": "medium",
+        "sizeLarge": "large",
+        "sizeXlarge": "x-large",
+        "sizeXxlarge": "xx-large",
         "price": 72.09,
         "image": {
           "fields": { "file": { "url": "./src/media/sportswear/sp2.jpg" } }
@@ -126,6 +156,12 @@
         "category": "men",
         "title": "African sexy outfit",
         "description": "3pieces bi-materail Mesh",
+        "sizeXsmall": "x-small",
+        "sizeSmall": "small",
+        "sizeMedium": "medium",
+        "sizeLarge": "large",
+        "sizeXlarge": "x-large",
+        "sizeXxlarge": "xx-large",
         "price": 65.44,
         "image": {
           "fields": { "file": { "url": "./src/media/lingerie/l6.jpg" } }
@@ -150,6 +186,12 @@
         "category": "children",
         "title": "African Print Dress",
         "description": "Women Clothing",
+        "sizeXsmall": "x-small",
+        "sizeSmall": "small",
+        "sizeMedium": "medium",
+        "sizeLarge": "large",
+        "sizeXlarge": "x-large",
+        "sizeXxlarge": "xx-large",
         "price": 181.25,
         "image": {
           "fields": { "file": { "url": "./src/media/clothes/c3.jpg" } }
@@ -174,6 +216,12 @@
         "category": "men",
         "title": "Ankara Active Wear",
         "description": "African Print Active Sportwear",
+        "sizeXsmall": "x-small",
+        "sizeSmall": "small",
+        "sizeMedium": "medium",
+        "sizeLarge": "large",
+        "sizeXlarge": "x-large",
+        "sizeXxlarge": "xx-large",
         "price": 72.09,
         "image": {
           "fields": { "file": { "url": "./src/media/sportswear/sp3.jpg" } }
@@ -198,6 +246,12 @@
         "category": "children",
         "title": "African sexy outfit",
         "description": "3pieces bi-materail Mesh",
+        "sizeXsmall": "x-small",
+        "sizeSmall": "small",
+        "sizeMedium": "medium",
+        "sizeLarge": "large",
+        "sizeXlarge": "x-large",
+        "sizeXxlarge": "xx-large",
         "price": 65.44,
         "image": {
           "fields": { "file": { "url": "./src/media/lingerie/l12.jpg" } }
@@ -210,6 +264,12 @@
         "category": "men",
         "title": "African Print Dress",
         "description": "Women Clothing",
+        "sizeXsmall": "x-small",
+        "sizeSmall": "small",
+        "sizeMedium": "medium",
+        "sizeLarge": "large",
+        "sizeXlarge": "x-large",
+        "sizeXxlarge": "xx-large",
         "price": 181.25,
         "image": {
           "fields": { "file": { "url": "./src/media/clothes/cl9.jpg" } }
@@ -246,6 +306,12 @@
         "category": "children",
         "title": "Ankara Active Wear",
         "description": "African Print Active Sportwear",
+        "sizeXsmall": "x-small",
+        "sizeSmall": "small",
+        "sizeMedium": "medium",
+        "sizeLarge": "large",
+        "sizeXlarge": "x-large",
+        "sizeXxlarge": "xx-large",
         "price": 72.09,
         "image": {
           "fields": { "file": { "url": "./src/media/sportswear/sp5.png" } }
@@ -270,6 +336,12 @@
         "category": "men",
         "title": "African sexy outfit",
         "description": "3pieces bi-materail Mesh",
+        "sizeXsmall": "x-small",
+        "sizeSmall": "small",
+        "sizeMedium": "medium",
+        "sizeLarge": "large",
+        "sizeXlarge": "x-large",
+        "sizeXxlarge": "xx-large",
         "price": 65.44,
         "image": {
           "fields": { "file": { "url": "./src/media/lingerie/l15.png" } }
@@ -282,6 +354,12 @@
         "category": "women",
         "title": "African Print Dress",
         "description": "Women Clothing",
+        "sizeXsmall": "x-small",
+        "sizeSmall": "small",
+        "sizeMedium": "medium",
+        "sizeLarge": "large",
+        "sizeXlarge": "x-large",
+        "sizeXxlarge": "xx-large",
         "price": 181.25,
         "image": {
           "fields": { "file": { "url": "./src/media/clothes/c4.png" } }
@@ -318,6 +396,12 @@
         "category": "children",
         "title": "Ankara Active Wear",
         "description": "African Print Active Sportwear",
+        "sizeXsmall": "x-small",
+        "sizeSmall": "small",
+        "sizeMedium": "medium",
+        "sizeLarge": "large",
+        "sizeXlarge": "x-large",
+        "sizeXxlarge": "xx-large",
         "price": 72.09,
         "image": {
           "fields": { "file": { "url": "./src/media/sportswear/sp6.jpeg" } }
@@ -330,6 +414,12 @@
         "category": "women",
         "title": "African sexy outfit",
         "description": "3pieces bi-materail Mesh",
+        "sizeXsmall": "x-small",
+        "sizeSmall": "small",
+        "sizeMedium": "medium",
+        "sizeLarge": "large",
+        "sizeXlarge": "x-large",
+        "sizeXxlarge": "xx-large",
         "price": 65.44,
         "image": {
           "fields": { "file": { "url": "./src/media/lingerie/l7.jpeg" } }
