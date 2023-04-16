@@ -369,5 +369,172 @@ fetch(url).then((Response => Response.json())).then((data) => {
                 productsArea.appendChild(card);
             });
         }
+    });
+
+
+    //sports only
+    let sportsProducts = allProductsArray.filter((item)=>{
+        return item.sys.id === "sportwear"
     })
+
+  
+    let sportsOnly = document.getElementById("sports");
+    
+    sportsOnly.addEventListener("click", () => {
+        if (sportsOnly.title === "sportsOn"){
+            productsArea.innerHTML = "";
+            sportsOnly.classList.toggle("i_active");
+            sportsOnly.classList.toggle("bi-toggle2-off");
+            sportsOnly.classList.toggle("bi-toggle2-on");
+            sportsOnly.title = "sportsOff";
+            AllFilteredProducts = AllFilteredProducts.concat(sportsProducts);
+
+            AllFilteredProducts.forEach((item, index) => {
+                const {title, price, description, category} = item.fields;
+                const {id} = item.sys;
+                const image = item.fields.image.fields.file.url;
+             
+                let card = document.createElement("a");
+                card.classList.add("itemCard")
+                card.innerHTML = `
+                <img src=${image} alt="">
+              <h5 class="cardTitle" title="African Print Dress">${title}</h5>
+              <p>${description}</p>
+              <div class="itemPrice">
+                  <h5>$${price}</h5>
+              </div>
+              <div class="colorTag">
+              <div class="stars">
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+            </div>
+                  <button class="proCart" data-id = ${id}>Buy</button>
+              </div>
+                `;
+                productsArea.appendChild(card);
+            });
+        } else{
+            productsArea.innerHTML = "";
+            sportsOnly.classList.toggle("i_active");
+            sportsOnly.classList.toggle("bi-toggle2-off");
+            sportsOnly.classList.toggle("bi-toggle2-on");
+            sportsOnly.title = "sportsOn";
+            AllFilteredProducts = AllFilteredProducts.filter((item) =>{
+                return sportsProducts.indexOf(item) < 0;
+            })
+            AllFilteredProducts.forEach((item, index) => {
+                const {title, price, description, category} = item.fields;
+                const {id} = item.sys;
+                const image = item.fields.image.fields.file.url;
+             
+                let card = document.createElement("a");
+                card.classList.add("itemCard")
+                card.innerHTML = `
+                <img src=${image} alt="">
+              <h5 class="cardTitle" title="African Print Dress">${title}</h5>
+              <p>${description}</p>
+              <div class="itemPrice">
+                  <h5>$${price}</h5>
+              </div>
+              <div class="colorTag">
+              <div class="stars">
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+            </div>
+                  <button class="proCart" data-id = ${id}>Buy</button>
+              </div>
+                `;
+                productsArea.appendChild(card);
+            });
+        }
+    });
+
+    //lingerie only
+    let lingerieProducts = allProductsArray.filter((item)=>{
+        return item.sys.id === "lingerie"
+    })
+
+  
+    let lingerieOnly = document.getElementById("lingerie");
+    
+    lingerieOnly.addEventListener("click", () => {
+        if (lingerieOnly.title === "lingerieOn"){
+            productsArea.innerHTML = "";
+            lingerieOnly.classList.toggle("i_active");
+            lingerieOnly.classList.toggle("bi-toggle2-off");
+            lingerieOnly.classList.toggle("bi-toggle2-on");
+            lingerieOnly.title = "lingerieOff";
+            AllFilteredProducts = AllFilteredProducts.concat(lingerieProducts);
+
+            AllFilteredProducts.forEach((item, index) => {
+                const {title, price, description, category} = item.fields;
+                const {id} = item.sys;
+                const image = item.fields.image.fields.file.url;
+             
+                let card = document.createElement("a");
+                card.classList.add("itemCard")
+                card.innerHTML = `
+                <img src=${image} alt="">
+              <h5 class="cardTitle" title="African Print Dress">${title}</h5>
+              <p>${description}</p>
+              <div class="itemPrice">
+                  <h5>$${price}</h5>
+              </div>
+              <div class="colorTag">
+              <div class="stars">
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+            </div>
+                  <button class="proCart" data-id = ${id}>Buy</button>
+              </div>
+                `;
+                productsArea.appendChild(card);
+            });
+        } else{
+            productsArea.innerHTML = "";
+            lingerieOnly.classList.toggle("i_active");
+            lingerieOnly.classList.toggle("bi-toggle2-off");
+            lingerieOnly.classList.toggle("bi-toggle2-on");
+            lingerieOnly.title = "lingerieOn";
+            AllFilteredProducts = AllFilteredProducts.filter((item) =>{
+                return lingerieProducts.indexOf(item) < 0;
+            })
+            AllFilteredProducts.forEach((item, index) => {
+                const {title, price, description, category} = item.fields;
+                const {id} = item.sys;
+                const image = item.fields.image.fields.file.url;
+             
+                let card = document.createElement("a");
+                card.classList.add("itemCard")
+                card.innerHTML = `
+                <img src=${image} alt="">
+              <h5 class="cardTitle" title="African Print Dress">${title}</h5>
+              <p>${description}</p>
+              <div class="itemPrice">
+                  <h5>$${price}</h5>
+              </div>
+              <div class="colorTag">
+              <div class="stars">
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+            </div>
+                  <button class="proCart" data-id = ${id}>Buy</button>
+              </div>
+                `;
+                productsArea.appendChild(card);
+            });
+        }
+    });
 })
