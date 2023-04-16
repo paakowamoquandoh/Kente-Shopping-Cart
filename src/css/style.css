@@ -525,11 +525,11 @@ section aside .filterArea {
 }
 
 section aside .filterArea .filter{
-  font-size: 12.8px;
+  font-size: 14.8px;
 }
 
 section aside .filterArea .productItems {
-  font-size: 12px;
+  font-size: 14px;
   margin-top: 3px;
 }
 
@@ -563,19 +563,20 @@ section aside .filterArea .itemsCheck li{
   align-items: center;
   justify-content: space-between;
   margin: auto;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 500;
 }
 
 section aside .filterArea .itemsCheck li i{
-  font-size: 14px;
+  font-size: 24px;
   transition: 0.3s linear;
   cursor: pointer;
+  color: var(--alternate);
 }
 
-section aside .filterArea .itemsCheck li i:hover{
-  color: var(--main-color);
-}
+/* section aside .filterArea .itemsCheck li i:hover{
+  color: orangered;
+} */
 
 section aside .filterArea .itemsCheck li .i_active{
   color: var(--main-color);
