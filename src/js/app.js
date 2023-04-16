@@ -537,4 +537,87 @@ fetch(url).then((Response => Response.json())).then((data) => {
             });
         }
     });
+
+    //pillow cases only
+    let pillowProducts = allProductsArray.filter((item)=>{
+        return item.sys.id === "pillow"
+    })
+
+  
+    let pillowOnly = document.getElementById("pillowcases");
+    
+    pillowOnly.addEventListener("click", () => {
+        if (pillowOnly.title === "pillowOn"){
+            productsArea.innerHTML = "";
+            pillowOnly.classList.toggle("i_active");
+            pillowOnly.classList.toggle("bi-toggle2-off");
+            pillowOnly.classList.toggle("bi-toggle2-on");
+            pillowOnly.title = "pillowOff";
+            AllFilteredProducts = AllFilteredProducts.concat(pillowProducts);
+
+            AllFilteredProducts.forEach((item, index) => {
+                const {title, price, description, category} = item.fields;
+                const {id} = item.sys;
+                const image = item.fields.image.fields.file.url;
+             
+                let card = document.createElement("a");
+                card.classList.add("itemCard")
+                card.innerHTML = `
+                <img src=${image} alt="">
+              <h5 class="cardTitle" title="African Print Dress">${title}</h5>
+              <p>${description}</p>
+              <div class="itemPrice">
+                  <h5>$${price}</h5>
+              </div>
+              <div class="colorTag">
+              <div class="stars">
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+            </div>
+                  <button class="proCart" data-id = ${id}>Buy</button>
+              </div>
+                `;
+                productsArea.appendChild(card);
+            });
+        } else{
+            productsArea.innerHTML = "";
+            pillowOnly.classList.toggle("i_active");
+            pillowOnly.classList.toggle("bi-toggle2-off");
+            pillowOnly.classList.toggle("bi-toggle2-on");
+            pillowOnly.title = "pillowOn";
+            AllFilteredProducts = AllFilteredProducts.filter((item) =>{
+                return pillowProducts.indexOf(item) < 0;
+            })
+            AllFilteredProducts.forEach((item, index) => {
+                const {title, price, description, category} = item.fields;
+                const {id} = item.sys;
+                const image = item.fields.image.fields.file.url;
+             
+                let card = document.createElement("a");
+                card.classList.add("itemCard")
+                card.innerHTML = `
+                <img src=${image} alt="">
+              <h5 class="cardTitle" title="African Print Dress">${title}</h5>
+              <p>${description}</p>
+              <div class="itemPrice">
+                  <h5>$${price}</h5>
+              </div>
+              <div class="colorTag">
+              <div class="stars">
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+            </div>
+                  <button class="proCart" data-id = ${id}>Buy</button>
+              </div>
+                `;
+                productsArea.appendChild(card);
+            });
+        }
+    });
 })

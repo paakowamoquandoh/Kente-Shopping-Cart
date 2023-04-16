@@ -382,8 +382,8 @@ section .productsBox .mainProArea{
 
 section .productsBox .mainProArea .itemCard{
     position: relative;
-    width: 200px;
-    height: 250px;
+    width: 240px;
+    height: 260px;
     /* border: 1px solid black; */
     margin: 5px 10px 25px 2px;
     text-decoration: none;
